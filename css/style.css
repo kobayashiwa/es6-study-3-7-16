@@ -389,15 +389,15 @@ header li a:hover {
 .star[data-rate="5.0"]:after {
 	content: "";
 }
-.swiper-container {
+.slider1 {
 	height: 158px;
 	padding: 0 40px;
 }
-.swiper-slide {
+.slider1 .swiper-slide {
 	width: 104px;
 	top: 12px;
 }
-.swiper-slide img {
+.slider1 .swiper-slide img {
 	width: 100%;
 	border-radius: 50%;
 	box-shadow: 0 0 0 4px #fff, 0 0 0 6px #D8D8D8;
@@ -469,6 +469,8 @@ header li a:hover {
 .item img {
 	width: 100%;
 }
+
+/** Guest book **/
 
 
 
