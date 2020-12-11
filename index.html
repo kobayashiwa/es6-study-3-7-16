@@ -91,7 +91,7 @@
                                 <!-- <div><span class="star" data-rate="5.0"></span>5.0</div> -->
                             </div>
                             <div class="swiper-custom-parent">
-                                <div class="swiper-container">
+                                <div class="swiper-container slider1">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide"><img src="img/slider-thum01.jpg"></div>
                                         <div class="swiper-slide"><img src="img/slider-thum02.jpg"></div>
@@ -162,11 +162,16 @@
                     <a class="btn" href="#">See More</a>
                 </div>
             </section>
+            <section class="guest-book">
+                <div class="container">
+                    <h3>Guest book</h3>
+                </div>
+            </section>
         </main>
     </body>
     <script src="js/swiper.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.slider1', {
             loop: true,
             slidesPerView: 3,
             spaceBetween: 48,
