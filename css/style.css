@@ -474,6 +474,19 @@ header li a:hover {
 	text-align: center;
 	margin-bottom: 80px;
 }
+.slider2 .swiper-container{
+	width: 800px;
+	height: 240px;
+}
+.slider2 .swiper-wrapper{
+    width: 800px;
+    height: 240px;
+    margin: 0 auto;
+	text-align: center;
+}
+.slider2 .swiper-wrapper .swiper-slide{
+	color: #9A9A9A;
+}
 
 
 
