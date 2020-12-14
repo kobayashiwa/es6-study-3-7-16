@@ -114,11 +114,12 @@ header li a:hover {
 	opacity: 0.85;
 }
 
-/** main-menu **/
-.main-menu {
-	padding: 200px 0;
+.bg-gray-wrap {
+	padding: 120px 0 200px 0;
 	background: #F2F2F2;
 }
+
+/** main-menu **/
 .main-menu .container {
 	justify-content:space-between;
 	align-items: center;
@@ -404,10 +405,6 @@ header li a:hover {
 }
 
 /** Service **/
-.service {
-	padding: 120px 0 200px 0;
-	background: #F2F2F2;
-}
 .service h3 {
 	color: #4A4A4A;
 	font-size: 40px;
@@ -471,10 +468,6 @@ header li a:hover {
 }
 
 /** Guest book **/
-.guest-book {
-	padding: 120px 0 200px 0;
-	background: #F2F2F2;
-}
 
 
 
