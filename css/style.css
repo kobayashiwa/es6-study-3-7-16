@@ -502,6 +502,12 @@ header li a:hover {
 	left: auto;
 	margin-top: 0;
 }
+.swiper-button-prev {
+	top: 30%;
+}
+.swiper-button-next {
+	top: 60%;
+}
 
 
 
