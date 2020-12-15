@@ -487,16 +487,16 @@ header li a:hover {
 .slider2 .swiper-wrapper .swiper-slide{
 	color: #9A9A9A;
 }
-.swiper-slide-active .voice {
+.slider2 .swiper-slide-active .voice {
 	width: fit-content;
 	margin: 0 auto;
 }
-.swiper-slide-active h4 {
+.slider2 .swiper-slide-active h4 {
 	font-size: 30px;
 	color: #66665E;
 	position: relative;
 }
-.swiper-slide-active h4:before {
+.slider2 .swiper-slide-active h4:before {
 	content:"";
 	display:block;
 	background: url(../img/guest-before.svg) no-repeat;
@@ -506,7 +506,7 @@ header li a:hover {
 	bottom:0;
 	left:-46px;
 }
-.swiper-slide-active h4:after {
+.slider2 .swiper-slide-active h4:after {
 	content:"";
 	display:block;
 	background: url(../img/guest-after.svg) no-repeat;
@@ -516,7 +516,7 @@ header li a:hover {
 	bottom:0;
 	right:-46px;
 }
-.swiper-button-prev, .swiper-button-next {
+.slider2 .swiper-button-prev, .slider2 .swiper-button-next {
 	transform: rotate(90deg);	/* 元のボタンを90度回転 */
 	-moz-transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
@@ -527,10 +527,10 @@ header li a:hover {
 	left: auto;
 	margin-top: 0;
 }
-.swiper-button-prev {
+.slider2 .swiper-button-prev {
 	top: 30%;
 }
-.swiper-button-next {
+.slider2 .swiper-button-next {
 	top: 60%;
 }
 
