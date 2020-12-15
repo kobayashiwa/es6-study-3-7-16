@@ -491,6 +491,13 @@ header li a:hover {
 	font-size: 30px;
 	color: #66665E;
 }
+.swiper-button-prev, .swiper-button-next {
+	transform: rotate(90deg);	/* 元のボタンを90度回転 */
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
 
 
 
