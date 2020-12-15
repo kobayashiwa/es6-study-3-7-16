@@ -497,6 +497,10 @@ header li a:hover {
 	-webkit-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
+	position: absolute;
+	right: 10%;
+	left: auto;
+	margin-top: 0;
 }
 
 
