@@ -114,11 +114,12 @@ header li a:hover {
 	opacity: 0.85;
 }
 
-/** main-menu **/
-.main-menu {
-	padding: 200px 0;
+.bg-gray-wrap {
+	padding: 120px 0 200px 0;
 	background: #F2F2F2;
 }
+
+/** main-menu **/
 .main-menu .container {
 	justify-content:space-between;
 	align-items: center;
@@ -389,25 +390,21 @@ header li a:hover {
 .star[data-rate="5.0"]:after {
 	content: "";
 }
-.swiper-container {
+.slider1 {
 	height: 158px;
 	padding: 0 40px;
 }
-.swiper-slide {
+.slider1 .swiper-slide {
 	width: 104px;
 	top: 12px;
 }
-.swiper-slide img {
+.slider1 .swiper-slide img {
 	width: 100%;
 	border-radius: 50%;
 	box-shadow: 0 0 0 4px #fff, 0 0 0 6px #D8D8D8;
 }
 
 /** Service **/
-.service {
-	padding: 120px 0 200px 0;
-	background: #F2F2F2;
-}
 .service h3 {
 	color: #4A4A4A;
 	font-size: 40px;
@@ -469,6 +466,74 @@ header li a:hover {
 .item img {
 	width: 100%;
 }
+
+/** Guest book **/
+.guest-book h3 {
+	color: #4A4A4A;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.slider2 .swiper-container{
+	width: 960px;
+	height: 240px;
+}
+.slider2 .swiper-wrapper{
+    width: 960px;
+    height: 240px;
+    margin: 0 auto;
+	text-align: center;
+}
+.slider2 .swiper-wrapper .swiper-slide{
+	color: #9A9A9A;
+}
+.slider2 .swiper-slide-active .voice {
+	width: fit-content;
+	margin: 0 auto;
+}
+.slider2 .swiper-slide-active h4 {
+	font-size: 30px;
+	color: #66665E;
+	position: relative;
+}
+.slider2 .swiper-slide-active h4:before {
+	content:"";
+	display:block;
+	background: url(../img/guest-before.svg) no-repeat;
+	width:30px;
+	height: 56px;
+	position:absolute;
+	bottom:0;
+	left:-46px;
+}
+.slider2 .swiper-slide-active h4:after {
+	content:"";
+	display:block;
+	background: url(../img/guest-after.svg) no-repeat;
+	width:30px;
+	height: 56px;
+	position:absolute;
+	bottom:0;
+	right:-46px;
+}
+.slider2 .swiper-button-prev, .slider2 .swiper-button-next {
+	transform: rotate(90deg);	/* 元のボタンを90度回転 */
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	position: absolute;
+	right: 10%;
+	left: auto;
+	margin-top: 0;
+}
+.slider2 .swiper-button-prev {
+	top: 30%;
+}
+.slider2 .swiper-button-next {
+	top: 60%;
+}
+
 
 
 
